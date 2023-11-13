@@ -6,6 +6,7 @@ In this research work, we explore ensemble aggregation methodologies applied to 
 
 ## Table of Contents
 - Libraries
+- Fetching the data sets
 - Loading the data
 - Data Preprocessing
 - Data Splitting
@@ -30,6 +31,12 @@ If the libraries are not pre installed in the environment , please use the below
 -  python -m pip install scipy
 -  pip install -U scikit-learn
 -  python -m pip install -U matplotlib
+
+## Fetching the data sets
+OpenML is a valuable platform in the field of machine learning and data science, providing access to a vast repository of open-source datasets. These datasets, sourced from a wide range of domains and sources, offer a wealth of opportunities for researchers, data scientists, and machine learning enthusiasts to explore, experiment, and develop models. <br>
+
+The datasets can be fetched from OpenML benchmark using the following link : <br>
+https://www.openml.org/
 
 ## Loading the data
 
@@ -79,3 +86,9 @@ The weights are calculated as inverse to Gini Impurity
 
 ![image](https://github.com/praneethraavi4/Exploring-and-Creating-Aggregation-Methods-for-Ensembles-WITHOUT-Validation-Data/assets/135500160/05d6e548-0317-4e2a-b163-3677224b98ac)
 
+
+## Running the Code
+
+- Select the file Cardiovascular-Disease.py
+- Fetch the data set ( Cardiovascular-Disease) from OpenML link specified above and save it in CSV form.
+- Read the datasets as pandas dataframe as specified above and run the .py file in a python environment.
